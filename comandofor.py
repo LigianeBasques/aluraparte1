@@ -1,3 +1,5 @@
-for c in range(0,6):
-    print('Oi')
-print('Fim')
+
+n = int(input('Digite um número: '))
+for c in range(0,n):
+    print(c)
+print('FIM')
