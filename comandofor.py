@@ -1,4 +1,5 @@
-
-for c in range(0,10):
+s = 0
+for c in range(0,4):
     n = int(input('Digite um valor: '))
-print('FIM')
+    s = s + n
+print('O somatório de todos os valors foi {}'.format(s))
